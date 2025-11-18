@@ -33,7 +33,7 @@ while running:
         x += vel+2
     if teclas[pygame.K_RIGHT] and teclas[pygame.K_LSHIFT]:
         if pygame.KEYUP:
-             x += vel
+            x += vel
         print('Ambas teclas son presionadas')
     # Aumentamos la velocidad a la izquierda
     if teclas[pygame.K_LEFT] and teclas[pygame.K_LSHIFT]:
